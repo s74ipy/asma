@@ -1,0 +1,66 @@
+body {
+  background-color: blueviolet;
+}
+
+.head-title {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #ffffff50;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.half-screen {
+  width: 50%;
+}
+
+.card-title {
+  color: #eee;
+}
+
+.item1 {
+  grid-row: 1;
+}
+
+.grid {
+  display: grid;
+}
+
+.screen-90 {
+  width: 90%;
+}
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.mar {
+    margin-top: 0;
+}
+
+
+table, th, td {
+    border: solid 0.1px #f1bfcd;
+    color: white;
+    width: 10%;
+}
