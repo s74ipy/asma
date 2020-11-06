@@ -1,80 +1,60 @@
 body {
-    background-color: #7d1e85;
+    background-color: purple;
 }
 
-.head-title {
-  color: #fff ;
-  text-align: center;
-  margin-top: 5%;
-  opacity: .8;
-}
-
-.card {
-  background-color: #ffffff50;
-}
-
-
-.container {
-  padding: 2px 16px;
-}
-
-
-
-.half-screen {
-  width: 50%;
-}
-
-.card-title {
-  color: #7d1e85;
-  margin: 10px;
-}
-
-.item1 {
-  grid-row: 1;
-}
-
-.grid {
-  display: grid;
-}
-
-.screen-90 {
-  width: 90%;
-}
-.center {
-  margin: auto;
-  width: 85%;
-  padding: 10px;
-}
-
-.mar {
-    margin-top: 0;
-}
-
-
-table, th, td {
-    border: solid 0.1px #f1bfcd;
-    color: #7d1e85;
-}
-
-.text-center {
-
+h1 {
+    margin: 5%;
     text-align: center;
-    font-weight: 800;
-    
+    color: plum;
 }
 
-input {
-    width: 70%;
-    margin: 10px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+h2 {
+    color: purple;
 }
-textarea {
-    margin: 10px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width: 70%;
+
+table,
+th,
+td {
+  border: solid 2px pink;
+  color: purple;
 }
+
 label {
-    margin-right: 40px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+input,
+textarea {
+    width: 70%;
+
+}
+
+#tableContainer {
+    display: inline;
+    float: left;
+    border: solid 2px pink;
+    width: 40%;
+    padding: 1%;
+    margin-left: 5%;
+    background-color: plum;
+}
+
+#formContainer {
+    display: inline;
+    float: right;
+    border: solid 2px pink;
+    width: 40%;
+    padding: 1%;
+    margin-right: 5%;
+    background-color: plum;
+
+}
+
+#submitFeedback {
+    width: 30%;
+    background-color: purple;
+    float: right;
+    color: plum;
 }
